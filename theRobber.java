@@ -20,6 +20,12 @@ public class theRobber
 		return helper(arr, 0, arr[0], arr[0]);
 	}
 
+	/*
+	 * arr = array 
+	 * index = position
+	 * sum = current sum
+	 * max = max sum so far
+	 */
 	private static int helper(int[] arr, int index, int sum, int max)
 	{
 		print("helper(arr," + index +","+max+","+sum+") **** ");
